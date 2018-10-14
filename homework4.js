@@ -53,8 +53,8 @@
 			let output = arr[0];
         	if(condition=== true) {
 				while(index < arr.length) {
-					if(output < arr[index + 1]) {
-						output = arr[index + 1];
+					if(output < arr[index]) {
+						output = arr[index];
 
 					}
 					index = index + 1;
@@ -63,8 +63,8 @@
 			}
              else if (condition=== false) { 
 			while(index < arr.length) {
-				if(output > arr[index + 1]) {
-	  				output = arr[index + 1];
+				if(output > arr[index]) {
+	  				output = arr[index];
 				}
 				index = index + 1;
 			   }
